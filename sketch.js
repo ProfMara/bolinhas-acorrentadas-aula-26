@@ -36,13 +36,12 @@ function setup() {
   
     //adiciona a imagem do botão
 
-    //cria a bolinha
+    //cria o objeto bola da classe Ball
 
-    //adiciona no mundo
 
-    //cria a corrente
+    //cria a corrente da classe 
 
-    //adiciona no mundo
+
 
 
     ellipseMode(RADIUS);
@@ -56,14 +55,15 @@ function draw() {
   //atualizar o motor
   Engine.update(motor);
 
-  //DESENHA A LINHA
 
 
   //desenha o solo
   fill('brown');
   rect(solo.position.x, solo.position.y, 600, 30);
 
-  //desenha a bolinha
+  //mostra a bolinha
+    
+   //mostra a corrente
 
 }
 
